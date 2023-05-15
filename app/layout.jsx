@@ -8,6 +8,9 @@ export const metadata ={
 const layout = ({children}) => {
   return (
     <html>
+        <head>
+            <link rel="shortcut icon" href="/assets/images/logo.png"/>
+        </head>
         <body>
             <Provider>
             <div className='main'>
